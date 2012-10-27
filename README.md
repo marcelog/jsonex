@@ -2,6 +2,8 @@
 
 An [elixir](http://elixir-lang.org/) module to wrap [jsx](https://github.com/talentdeficit/jsx).
 
+See [expm homepage](http://expm.co/jsonex) for jsonex.
+
 # Use example
 
 ## Encoding
