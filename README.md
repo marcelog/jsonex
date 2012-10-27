@@ -11,5 +11,5 @@ An [elixir](http://elixir-lang.org/) module to wrap [jsx](https://github.com/tal
 
 ## Decoding
 
-  $ mix run "IO.inspect Jsonex.decode('{\"a\": 1, \"b\": 2}')"
-  [{"a",1},{"b",2}]
+    $ mix run "IO.inspect Jsonex.decode('{\"a\": 1, \"b\": 2}')"
+    [{"a",1},{"b",2}]
