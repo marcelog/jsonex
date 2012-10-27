@@ -3,7 +3,7 @@ defmodule Jsonex.Mixfile do
 
   def project do
     [ app: :jsonex,
-      version: "0.0.1",
+      version: "0.2",
       deps: deps ]
   end
 

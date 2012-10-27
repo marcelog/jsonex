@@ -1,6 +1,6 @@
 defmodule Jsonex do
   def encode(term) do
-    :jsonerl.encode term
+    :lists.flatten (:jsonerl.encode term)
   end
 
   def decode(json) do

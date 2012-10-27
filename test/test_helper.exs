@@ -1,2 +1,1 @@
-Jsonex.start
 ExUnit.start
