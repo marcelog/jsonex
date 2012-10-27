@@ -1,9 +1,9 @@
 defmodule Jsonex do
   def encode(term) do
-    :lists.flatten (:jsonerl.encode term)
+    Kernel.binary_to_list :jsx.encode(term)
   end
 
   def decode(json) do
-    :jsonerl.decode json
+    :jsx.decode Kernel.list_to_binary(json)
   end
 end

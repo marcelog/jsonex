@@ -3,7 +3,7 @@ defmodule Jsonex.Mixfile do
 
   def project do
     [ app: :jsonex,
-      version: "0.2",
+      version: "1.0",
       deps: deps ]
   end
 
@@ -15,6 +15,6 @@ defmodule Jsonex.Mixfile do
   # Returns the list of dependencies in the format:
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    [{:jsonerl, "0.1", [github: "lambder/jsonerl"]}]
+    [{:jsx, "1.3.3", [github: "talentdeficit/jsx", tag: "v1.3.3"]}]
   end
 end

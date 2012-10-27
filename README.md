@@ -1,16 +1,15 @@
 # Jsonex
 
-An [elixir](http://elixir-lang.org/) module to wrap [jsonerl](https://github.com/lambder/jsonerl).
+An [elixir](http://elixir-lang.org/) module to wrap [jsx](https://github.com/talentdeficit/jsx).
 
 # Use example
 
 ## Encoding
 
-    $ mix run "IO.puts Jsonex.encode({{:prop1, 1}, {:prop2, 2}})"
-    {"prop1":1,"prop2":2}
+    $ mix run 'IO.puts Jsonex.encode([a: 1, b: 2])'
+    {"a":1,"b":2}
 
 ## Decoding
 
-    $ mix run "IO.inspect Jsonex.decode('{\"prop1\":1,\"prop2\":2}')"
-    {{"prop1",1},{"prop2",2}}
-
+  $ mix run "IO.inspect Jsonex.decode('{\"a\": 1, \"b\": 2}')"
+  [{"a",1},{"b",2}]
