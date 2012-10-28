@@ -13,5 +13,6 @@ See [expm homepage](http://expm.co/jsonex) for jsonex.
 
 ## Decoding
 
-    $ mix run "IO.inspect Jsonex.decode('{\"a\": 1, \"b\": 2}')"
+    mix run 'IO.inspect Jsonex.decode("{\"a\": 1, \"b\": 2}")'
     [{"a",1},{"b",2}]
+
