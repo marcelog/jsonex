@@ -16,3 +16,6 @@ See [expm homepage](http://expm.co/jsonex) for jsonex.
     mix run 'IO.inspect Jsonex.decode("{\"a\": 1, \"b\": 2}")'
     [{"a",1},{"b",2}]
 
+# License
+This software is under the Apache 2 License. See the **LICENSE** file for more details.
+
